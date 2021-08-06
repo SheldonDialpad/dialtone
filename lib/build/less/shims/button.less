@@ -1,0 +1,223 @@
+@import (reference) "../button";
+
+.d-btn--danger--outlined--loading {
+  .d-btn();
+  .d-btn--danger();
+  .d-btn--outlined();
+  .d-btn--loading();
+
+  --button--bc: var(--error-color);
+}
+
+.d-btn--danger--outlined {
+  .d-btn();
+  .d-btn--danger();
+  .d-btn--outlined();
+
+  --button--bc: var(--error-color);
+}
+
+.d-btn--danger--primary--loading {
+  .d-btn();
+  .d-btn--danger();
+  .d-btn--primary();
+  .d-btn--loading();
+
+  --button--fc: var(--white);
+  --button--bgc: var(--error-color);
+
+  &:hover {
+    --button--bgc: var(--error-color-hover);
+  }
+}
+
+.d-btn--danger--primary {
+  .d-btn();
+  .d-btn--danger();
+  .d-btn--primary();
+
+  --button--fc: var(--white);
+  --button--bgc: var(--error-color);
+
+  &:hover {
+    --button--bgc: var(--error-color-hover);
+  }
+}
+
+.d-btn--inverted--outlined--loading {
+  .d-btn();
+  .d-btn--inverted();
+  .d-btn--outlined();
+  .d-btn--loading();
+
+  --button--bc: var(--white);
+}
+
+.d-btn--inverted--outlined {
+  .d-btn();
+  .d-btn--inverted();
+  .d-btn--outlined();
+
+  --button--bc: var(--white);
+}
+
+.d-btn--inverted--primary--loading {
+  .d-btn();
+  .d-btn--inverted();
+  .d-btn--primary();
+  .d-btn--loading();
+
+  --button--fc: var(--primary-color);
+  --button--bgc: var(--white);
+
+  &:hover {
+    --button--fc: var(--primary-color-hover);
+    --button--bgc: hsla(var(--white-hsl) ~" / " 90%);
+  }
+}
+
+.d-btn--inverted--primary {
+  .d-btn();
+  .d-btn--inverted();
+  .d-btn--primary();
+
+  --button--fc: var(--primary-color);
+  --button--bgc: var(--white);
+
+  &:hover {
+    --button--fc: var(--primary-color-hover);
+    --button--bgc: hsla(var(--white-hsl) ~" / " 90%);
+  }
+}
+
+.d-btn--circle--outlined--loading {
+  .d-btn();
+  .d-btn--circle();
+  .d-btn--outlined();
+  .d-btn--loading();
+
+  --button--bc:    var(--black-700);
+}
+
+.d-btn--circle--outlined {
+  .d-btn();
+  .d-btn--circle();
+  .d-btn--outlined();
+
+  --button--bc:    var(--black-700);
+}
+
+.d-btn--circle--danger--primary--loading {
+  .d-btn();
+  .d-btn--circle();
+  .d-btn--danger();
+  .d-btn--primary();
+  .d-btn--loading();
+
+  --button--fc: var(--white);
+  --button--bgc: var(--error-color);
+
+  &:hover {
+    --button--bgc: var(--error-color-hover);
+  }
+}
+
+.d-btn--circle--danger--primary {
+  .d-btn();
+  .d-btn--circle();
+  .d-btn--danger();
+  .d-btn--primary();
+
+  --button--fc: var(--white);
+  --button--bgc: var(--error-color);
+
+  &:hover {
+    --button--bgc: var(--error-color-hover);
+  }
+}
+
+.d-btn--circle--inverted--outlined--loading {
+  .d-btn();
+  .d-btn--circle();
+  .d-btn--inverted();
+  .d-btn--outlined();
+  .d-btn--loading();
+
+  --button--bc: var(--white);
+}
+
+.d-btn--circle--inverted--outlined {
+  .d-btn();
+  .d-btn--circle();
+  .d-btn--inverted();
+  .d-btn--outlined();
+
+  --button--bc: var(--white);
+}
+
+.d-btn--circle--inverted--primary--loading {
+  .d-btn();
+  .d-btn--circle();
+  .d-btn--inverted();
+  .d-btn--primary();
+  .d-btn--loading();
+
+  --button--fc: var(--primary-color);
+  --button--bgc: var(--white);
+
+  &:hover {
+    --button--fc: var(--primary-color-hover);
+    --button--bgc: hsla(var(--white-hsl) ~" / " 90%);
+  }
+}
+
+.d-btn--circle--inverted--primary {
+  .d-btn();
+  .d-btn--circle();
+  .d-btn--inverted();
+  .d-btn--primary();
+
+  --button--fc: var(--primary-color);
+  --button--bgc: var(--white);
+
+  &:hover {
+    --button--fc: var(--primary-color-hover);
+    --button--bgc: hsla(var(--white-hsl) ~" / " 90%);
+  }
+}
+
+.d-btn--circle--xs {
+  .d-btn();
+  .d-btn--circle();
+  .d-btn--xs();
+
+  padding: calc(var(--su8) - var(--su1));
+  --button--br:   var(--br-circle);
+}
+
+.d-btn--circle--sm {
+  .d-btn();
+  .d-btn--circle();
+  .d-btn--sm();
+
+  padding: var(--su8);
+  --button--br:   var(--br-circle);
+}
+
+.d-btn--circle--lg {
+  .d-btn();
+  .d-btn--circle();
+  .d-btn--lg();
+
+  padding: calc(var(--su12) + var(--su1));
+  --button--br:   var(--br-circle);
+}
+
+.d-btn--circle--xl {
+  .d-btn();
+  .d-btn--circle();
+  .d-btn--xl();
+
+  padding: calc(var(--su16) - var(--su1));
+  --button--br:   var(--br-circle);
+}
