@@ -60,7 +60,8 @@
     align-self: flex-start;
 
     //  --  DISABLED
-    &[disabled] {
+    &[disabled],
+    &--disabled {
         border-color: var(--ash-dark);
         background-color: var(--ash-dark);
         cursor: not-allowed;
@@ -245,7 +246,7 @@
             &[disabled] {
                 border-color: var(--ash-darkest);
                 background-color: var(--ash-darkest);
-            }            
+            }
         }
     }
 }
